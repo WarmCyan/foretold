@@ -3,7 +3,7 @@ import json
 from scipy.optimize import curve_fit
 import matplotlib.pyplot as plt
 
-plt.style.use('dark_background')
+#plt.style.use('dark_background')
 
 with open("./tenn-case-data.json", 'r') as infile:
     data = json.load(infile)
